@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+ 
+span{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+.art{
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+}
+body {
+    background-color: hsl(0, 0%, 98%);
+    background-size: contain;
+   
+}
+.head{ 
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.every{
+    display: flex;
+   flex-direction: row;
+   gap: 20px;
+   align-items: center;
+   justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.build{
+ background-color: whitesmoke;
+ border-top: 4px solid hsl(0, 78%, 62%);
+
+ padding: 0px 20px 40px;
+   
+}
+.superviso{
+background-color: white;
+border-top: 4px solid hsl(212, 86%, 64%);
+padding: 0px 20px 40px;
+}
+.cal{
+  background-color: whitesmoke;
+border-top: 4px solid hsl(0, 78%, 62%);
+padding: 0px 20px 40px;
+}
+.karma{
+   border-top: 4px solid hsl(34, 97%, 64%);
+   background-color: whitesmoke;
+   padding: 0px 20px 40px;
+}
+.twin{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+   
+}
+.imgs{
+    display: flex;
+    justify-content: end;
+}
+.imgt{
+    display: flex;
+    justify-content: end;
+}
+.imgc{
+    display: flex;
+    justify-content: end;
+}
+.imgk{
+    display: flex;
+    justify-content: end;
+}
+.h{
+    color: hsl(229, 6%, 66%);
+    text-align: left;
+  
+}
+.b{
+    color: hsl(229, 6%, 66%);
+}
+.k{
+    color: hsl(229, 6%, 66%);
+}
+.c{
+    color: hsl(229, 6%, 66%);
+}
+
+
+
+
+@media  ((min-width: 390px) and (max-width: 844px)) {
+    .head{
+        text-align: center;
+    }
+    main{
+        overflow: hidden;
+        padding: 0PX 10PX;
+        margin: 50px 0px 50px 0px;
+
+    }
+    .every{
+        flex-direction: column;
+        width: ;
+    }
+}
